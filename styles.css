@@ -15,6 +15,14 @@
     overflow-x: hidden;
   }
 
+  .ipad-lights {
+    display: none;
+  }
+
+  .bg-pattern1 {
+    display: none;
+  }
+
   .main {
     background-color: #f2f2f2;
     display: flex;
@@ -92,6 +100,9 @@
     background-color: #191826;
     border-bottom-right-radius: 3%;
     border-bottom-left-radius: 3%;
+  }
+  .premium-outside-tablet {
+    display: none;
   }
   .premium-title {
     color: #fcfaf9;
@@ -247,7 +258,10 @@
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
   .logo {
-    padding: 24.15px 39.99px;
+    width: 19%;
+    height: 4.5%;
+    margin-left: 5.1%;
+    margin-top: 8.8%;
   }
 
   html,
@@ -262,67 +276,80 @@
     display: flex;
     flex-direction: column;
     width: 100vw;
+    align-items: flex-end;
+  }
+
+  .first {
+    width: 100vw;
+    height: 75.3vh;
   }
 
   .lights {
-    width: 80%;
-    height: 480px;
-    top: -104px;
     position: absolute;
     align-self: flex-end;
+    display: none;
+  }
+
+  .ipad-lights {
+    width: 94.9%;
+    height: 68.9%;
+    position: absolute;
   }
   .title {
+    width: 67.7%;
     font-family: IBM Plex Sans;
-    font-style: normal;
+    font-size: 64px;
     font-weight: bold;
-    font-size: 40px;
-    line-height: 48px;
-
-    letter-spacing: -0.454545px;
-
+    line-height: 1;
+    letter-spacing: -0.73px;
+    text-align: left;
     color: #191826;
-    padding: 20px 39.99px;
+    padding-left: 5.1%;
+    padding-top: 10.6%;
   }
   .desc {
+    width: 66.9%;
+    height: 6.3vh;
+    padding-left: 5.1%;
+    padding-top: 4%;
     font-family: IBM Plex Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0px;
+    font-size: 18px;
+    line-height: 1.56;
     text-align: left;
-    padding: 0px 39.99px;
+    color: #191826;
   }
   .preview {
     margin-top: 166px;
-    width: 100%;
-    height: 380px;
+    width: 90.6%;
+    height: 58.6vh;
     background-color: #191826;
     justify-content: center;
     align-items: center;
     display: flex;
     overflow: hidden;
-    border-top-right-radius: 3%;
-    border-top-left-radius: 3%;
+    border-radius: 12px;
+    align-self: center;
   }
   .bg-pattern {
     height: 420px;
     width: 280px;
-    margin-top: 40px;
+    left: 34vw;
+    position: absolute;
+    bottom: -29vh;
   }
   .phone {
     position: absolute;
-    width: 208.97px;
-    height: 430px;
-    left: 80.67px;
-    top: 500px;
+    width: 35.2%;
+    height: 54.3vh;
+    right: 52vw;
+    top: 78vh;
   }
   .premium {
     max-width: 100vw;
     height: 100%;
     background-color: #fa7453;
     border-radius: 3%;
-    padding-left: 10%;
+    padding-left: 12%;
     display: flex;
     flex-direction: column;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -333,6 +360,7 @@
     background-color: #191826;
     border-bottom-right-radius: 3%;
     border-bottom-left-radius: 3%;
+    display: none;
   }
   .premium-title {
     color: #fcfaf9;
@@ -341,23 +369,16 @@
     font-weight: bold;
     font-size: 32px;
     line-height: 40px;
-    padding-top: 10%;
+    padding-top: 13.7%;
   }
   .premium-desc {
-    width: 302px;
-    height: 140px;
-    left: 36px;
-    top: 1102px;
-
     font-family: IBM Plex Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 28px;
-    padding-top: 8%;
+    line-height: 1.56;
+    padding-top: 3.45%;
     padding-bottom: 10%;
-    /* or 156% */
-
     color: #fcfaf9;
   }
   .dollar {
@@ -376,10 +397,7 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 32px;
-    /* identical to box height, or 160% */
-
     letter-spacing: -0.2px;
-
     color: #fcfaf9;
     margin-left: 4%;
   }
@@ -405,6 +423,8 @@
     justify-content: center;
     border: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 18px;
+    line-height: 32px;
   }
   .ios-img {
     padding: 8px;
@@ -430,6 +450,8 @@
     align-items: center;
     justify-content: center;
     border: none;
+    font-size: 18px;
+    line-height: 32px;
   }
 
   .footer {
@@ -465,7 +487,6 @@
     font-size: 16px;
     line-height: 26px;
     color: #191826;
-
     display: flex;
   }
 
@@ -483,5 +504,18 @@
   }
   .social {
     padding-left: 20px;
+  }
+  .bg-pattern1 {
+    width: 231px;
+    height: 368px;
+    position: absolute;
+  }
+  .premium-outside-tablet {
+    width: 52%;
+    height: 53.4vh;
+    border-radius: 12px;
+    position: absolute;
+    right: 12%;
+    top: 106vh;
   }
 }
