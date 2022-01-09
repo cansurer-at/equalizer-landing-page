@@ -31,6 +31,10 @@
     height: 24.68%;
   }
 
+  .footer-tablet {
+    display: none;
+  }
+
   .lights {
     width: 80%;
     height: 480px;
@@ -204,7 +208,7 @@
 
   .footer {
     max-width: 100vw;
-    height: 397px;
+    height: 36.5vh;
     background-color: #fcfaf9;
     padding-left: 24px;
     padding-top: 64px;
@@ -220,12 +224,10 @@
     font-size: 16px;
     line-height: 26px;
     color: #191826;
-    display: flex;
   }
 
   .logo-second {
     padding-bottom: 32px;
-    display: flex;
   }
 
   .contact {
@@ -235,8 +237,6 @@
     font-size: 16px;
     line-height: 26px;
     color: #191826;
-
-    display: flex;
   }
 
   .email {
@@ -246,7 +246,6 @@
     font-size: 16px;
     line-height: 26px;
     color: #191826;
-    display: flex;
   }
   .social-media {
     padding-top: 15%;
@@ -272,7 +271,7 @@
   }
 
   .main {
-    background-color: #f2f2f2;
+    background-color: #fcfaf9;
     display: flex;
     flex-direction: column;
     width: 100vw;
@@ -281,7 +280,7 @@
 
   .first {
     width: 100vw;
-    height: 75.3vh;
+    height: 58.3vh;
   }
 
   .lights {
@@ -291,7 +290,7 @@
   }
 
   .ipad-lights {
-    width: 94.9%;
+    width: 100%;
     height: 68.9%;
     position: absolute;
   }
@@ -309,7 +308,6 @@
   }
   .desc {
     width: 66.9%;
-    height: 6.3vh;
     padding-left: 5.1%;
     padding-top: 4%;
     font-family: IBM Plex Sans;
@@ -335,14 +333,14 @@
     width: 280px;
     left: 34vw;
     position: absolute;
-    bottom: -29vh;
+    bottom: -12vh;
   }
   .phone {
     position: absolute;
     width: 35.2%;
     height: 54.3vh;
     right: 52vw;
-    top: 78vh;
+    top: 61vh;
   }
   .premium {
     max-width: 100vw;
@@ -455,14 +453,15 @@
   }
 
   .footer {
-    max-width: 100vw;
+    width: 78.8%;
     height: 397px;
     background-color: #fcfaf9;
     padding-left: 24px;
-    padding-top: 64px;
-    padding-bottom: 10%;
+    margin-top: 18vh;
+    margin-bottom: 10%;
     max-width: 100vw;
     padding-right: 24px;
+    align-self: center;
   }
 
   .footer-desc {
@@ -472,12 +471,20 @@
     font-size: 16px;
     line-height: 26px;
     color: #191826;
-    display: flex;
+    display: none;
+  }
+
+  .footer-desc-tablet {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
   }
 
   .logo-second {
     padding-bottom: 32px;
-    display: flex;
   }
 
   .contact {
@@ -487,7 +494,16 @@
     font-size: 16px;
     line-height: 26px;
     color: #191826;
-    display: flex;
+    display: none;
+  }
+
+  .contact-tablet {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
   }
 
   .email {
@@ -497,10 +513,24 @@
     font-size: 16px;
     line-height: 26px;
     color: #191826;
-    display: flex;
+    display: none;
+  }
+
+  .email-tablet {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
   }
   .social-media {
     padding-top: 15%;
+    background-color: #fcfaf9;
+    display: none;
+  }
+  .social-media-tablet {
+    background-color: #fcfaf9;
   }
   .social {
     padding-left: 20px;
@@ -516,6 +546,18 @@
     border-radius: 12px;
     position: absolute;
     right: 12%;
-    top: 106vh;
+    top: 89.5vh;
+  }
+
+  .footer-text-container {
+    width: 70%;
+  }
+  .footer-tablet {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  }
+  .footer {
+    height: auto;
   }
 }
