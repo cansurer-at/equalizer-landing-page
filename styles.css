@@ -3,9 +3,383 @@
   padding: 0px;
 }
 
+/* Desktop */
+
+@media only screen and (min-device-width: 1025px) {
+  .bg-pattern1 {
+    display: none;
+  }
+
+  .logo {
+    width: 10.14vw;
+    height: 7.189%;
+    margin-left: 11.53vw;
+    margin-top: 4.306%;
+    margin-bottom: 8.82%;
+  }
+  html,
+  body,
+  element {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .main {
+    background-color: #fcfaf9;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: flex-end;
+  }
+  .bg-pattern-desktop {
+    position: absolute;
+    align-self: flex-end;
+    height: 61.258%;
+    width: 21.667vw;
+    top: -6%;
+  }
+
+  .first {
+    width: 100vw;
+    height: 51.3vh;
+  }
+
+  .lights {
+    position: absolute;
+    align-self: flex-end;
+    display: none;
+  }
+
+  .desktop-lights {
+    position: absolute;
+    height: 200%;
+    width: 110vw;
+    opacity: 0.6;
+  }
+
+  .ipad-lights {
+    width: 100%;
+    height: 68.9%;
+    position: absolute;
+    display: none;
+  }
+  .title {
+    margin-right: 18vw;
+    margin-left: 11.459vw;
+    width: 70.5vw;
+    height: 39.52%;
+    font-family: IBM Plex Sans;
+    font-size: 88px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: -1px;
+    text-align: left;
+    color: #191826;
+  }
+  .desc {
+    width: 57.299vw;
+    height: 22.8%;
+    margin-top: 4.1%;
+    margin-left: 11.424vw;
+    margin-right: 31.23vw;
+    font-family: IBM Plex Sans;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.7;
+    letter-spacing: normal;
+    text-align: left;
+    color: #191826;
+  }
+  .preview {
+    margin-top: 32.5%;
+    width: 77.084vw;
+    height: 78.536vh;
+    background-color: #191826;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    border-radius: 12px;
+    align-self: center;
+    margin-left: 11.46vw;
+    margin-right: 11.46vw;
+  }
+  .bg-pattern {
+    height: 420px;
+    width: 280px;
+    left: 34vw;
+    position: absolute;
+    bottom: -12vh;
+    display: none;
+  }
+
+  .bg-second-desktop {
+    position: absolute;
+    top: 113%;
+    left: 34.7%;
+    height: 56.258%;
+    width: 21.667vw;
+  }
+  .phone {
+    position: absolute;
+    width: 21.667vw;
+    height: 84.033%;
+    right: 58.681vw;
+    top: 85%;
+    left: 18.46%;
+  }
+  .premium {
+    width: 30.9vw;
+    height: 153.219%;
+    flex-grow: 0;
+    border-radius: 12px;
+    background-color: #fa7453;
+    margin-top: 36%;
+    margin-left: 15vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .premium-outside {
+    width: 100%;
+    height: 540px;
+    background-color: #191826;
+    border-bottom-right-radius: 3%;
+    border-bottom-left-radius: 3%;
+    display: none;
+  }
+  .premium-title {
+    color: #fcfaf9;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    padding-top: 14.7%;
+    margin-left: 3.7vw;
+  }
+  .premium-desc {
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    margin-top: 5.3%;
+    padding-bottom: 21%;
+    color: #fcfaf9;
+    margin-left: 3.8vw;
+    font-weight: 200;
+    line-height: 1.7;
+    text-align: left;
+    width: 21.1vw;
+  }
+  .dollar {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 52px;
+    padding-left: 12%;
+    color: #fcfaf9;
+    margin-top: -18%;
+  }
+  .month {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    color: #fcfaf9;
+    margin-left: 4%;
+    margin-top: -18%;
+  }
+
+  .price {
+    display: flex;
+    align-items: center;
+    margin-top: 7.2%;
+  }
+
+  .button-container-desktop {
+    width: 20vw;
+    height: 22%;
+    align-items: center;
+    justify-content: space-between;
+    align-self: center;
+    object-fit: contain;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+  }
+  .btn-IOS {
+    color: #fcfaf9;
+    background-color: #191826;
+    width: 23.14vw;
+    height: 44%;
+    border-radius: 12px;
+    font-family: IBM Plex Sans;
+    font-weight: bold;
+    display: flex;
+    border: none;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    font-size: 19px;
+    line-height: 29px;
+    object-fit: contain;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.78;
+    letter-spacing: -0.18px;
+    text-align: center;
+  }
+  .ios-img {
+    padding: 0.3vw;
+    object-fit: contain;
+  }
+
+  .and-img {
+    padding: 0.3vw;
+    object-fit: contain;
+  }
+
+  .btn-And {
+    color: #191826;
+    background-color: #fcfaf9;
+    width: 23.14vw;
+    height: 44%;
+    border-radius: 12px;
+    font-family: IBM Plex Sans;
+    font-weight: bold;
+    display: flex;
+    border: none;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    font-size: 19px;
+    line-height: 29px;
+    align-self: center;
+    object-fit: contain;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-desktop {
+    width: 78.8%;
+    background-color: #fcfaf9;
+    padding-left: 3.5%;
+    margin-top: 27vh;
+    margin-bottom: 10%;
+    max-width: 100vw;
+    padding-right: 24px;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer {
+    display: none;
+  }
+
+  .footer-desc-desktop {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+    display: none;
+  }
+
+  .footer-desc-tablet-desktop {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+  }
+
+  .logo-second-desktop {
+    padding-bottom: 45px;
+  }
+
+  .contact-desktop {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+    display: none;
+  }
+
+  .contact-tablet-desktop {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+  }
+
+  .email-desktop {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+    display: none;
+  }
+
+  .email-tablet-desktop {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+  }
+  .social-media-desktop {
+    padding-top: 15%;
+    background-color: #fcfaf9;
+    display: none;
+  }
+  .social-media-tablet-desktop {
+    background-color: #fcfaf9;
+    width: 11.5%;
+  }
+  .social-desktop {
+    padding-left: 20px;
+  }
+  .bg-pattern1 {
+    width: 231px;
+    height: 368px;
+    position: absolute;
+  }
+  .premium-outside-tablet {
+    width: 52%;
+    height: 53.4vh;
+    border-radius: 12px;
+    position: absolute;
+    right: 12%;
+    top: 89.5vh;
+  }
+
+  .footer-text-container-desktop {
+    width: 34%;
+    margin-right: 18%;
+  }
+  .footer-tablet-desktop {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  }
+}
+/* Mobile */
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .logo {
     padding: 24.15px 39.99px;
+  }
+  .footer-desktop {
+    display: none;
   }
 
   html,
@@ -19,7 +393,15 @@
     display: none;
   }
 
+  .desktop-lights {
+    display: none;
+  }
+
   .bg-pattern1 {
+    display: none;
+  }
+
+  .bg-pattern-desktop {
     display: none;
   }
 
@@ -97,6 +479,10 @@
     display: flex;
     flex-direction: column;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  .bg-second-desktop {
+    display: none;
   }
   .premium-outside {
     width: 100%;
@@ -253,14 +639,22 @@
   .social {
     padding-left: 20px;
   }
+
+  .button-container-desktop {
+    display: none;
+  }
 }
 
+/* Tablet  */
 @media only screen and (min-device-width: 481px) and (max-device-width: 850px) {
   .logo {
     width: 19%;
     height: 4.5%;
     margin-left: 5.1%;
     margin-top: 8.8%;
+  }
+  .footer-desktop {
+    display: none;
   }
 
   html,
@@ -277,7 +671,13 @@
     width: 100vw;
     align-items: flex-end;
   }
+  .bg-pattern-desktop {
+    display: none;
+  }
 
+  .desktop-lights {
+    display: none;
+  }
   .first {
     width: 100vw;
     height: 58.3vh;
@@ -360,6 +760,11 @@
     border-bottom-left-radius: 3%;
     display: none;
   }
+
+  .bg-second-desktop {
+    display: none;
+  }
+
   .premium-title {
     color: #fcfaf9;
     font-family: IBM Plex Sans;
